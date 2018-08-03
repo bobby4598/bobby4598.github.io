@@ -1,0 +1,27 @@
+body{
+    background-color: rosybrown;
+}
+
+table{
+    background-image: url(depositphotos_88369418-stock-illustration-funny-cartoon-eclair.jpg);
+}
+
+#red_q{
+    color: red;
+}
+
+#q_1{
+    color: pink;
+}
+
+#q_2{
+    color: lightblue;
+}
+
+#q_3{
+    color: aquamarine;
+}
+
+#wishes{
+    color: #6573c1
+}
