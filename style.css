@@ -1,17 +1,18 @@
-body{
-    background-color: rosybrown;
+html{
+    background: url(http://www.gandex.ru/upl/oboi/u11307_9839_FreeWallpapers121.jpg) center;
 }
-
 table{
     background-image: url(depositphotos_88369418-stock-illustration-funny-cartoon-eclair.jpg);
 }
 
-#red_q{
+#red_q:first-letter{
     color: red;
+    font-size: 30px;
 }
 
 #q_1{
     color: pink;
+    font-size: 30px;
 }
 
 #q_2{
@@ -22,6 +23,36 @@ table{
     color: aquamarine;
 }
 
-#wishes{
-    color: #6573c1
+#wishes:first-letter{
+    color: #6573c1;
+    font-size: 30px;
+}
+.try{
+  
+  margin: 1.5em 0;
+  padding: 0.1em 25px;
+  line-height: 1.5em;
+  background-image: url(https://i.mycdn.me/image?id=573875615342&t=0&plc=WEB&tkn=*ObxogeNxnljaDoWFNhpfqYBjsMk);
+  border-left: 5px solid #e7471e;
+  border-right: 5px solid #e7471e;
+  border-radius: 110px 200px 200px 110px;
+  box-shadow: 20px 19px 50px 6px;
+  color: fuchsia
+}
+
+#GCF{
+    text-decoration: none
+}
+
+#GCF:hover{
+    color: #4dbecb
+}
+.pic{
+    border-style:solid;
+    border-width: 5px;
+    border-color: saddlebrown;
+    border-radius: 10em
+}
+#ecler{
+    
 }
