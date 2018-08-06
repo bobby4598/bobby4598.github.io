@@ -57,3 +57,10 @@ table{
 #ecler{
     
 }
+.textarea{
+    border-radius: 10px;
+    background: #ec0d0d;
+    color: black;
+    border-color: black;
+    border-bottom-width: thick;
+}
