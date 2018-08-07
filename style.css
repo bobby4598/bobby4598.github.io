@@ -1,5 +1,7 @@
 html{
     background: url(http://www.gandex.ru/upl/oboi/u11307_9839_FreeWallpapers121.jpg) center;
+    background-size: contain;
+    background-attachment: fixed;
     color: red;
 }
 table{
