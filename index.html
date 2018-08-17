@@ -26,13 +26,13 @@
         <lable for="выбор">Эклеры</lable><input type="checkbox" name="выбор" id="выбор" /> 
         <lable for="выбор">Эклеры</lable><input type="checkbox" name="выбор" id="выбор" />
         </p>
-        <p id="wishes"><strong>Оставьте свои пожелания Мистеру Зайчатине: </strong></p>
+        <p class="join" id="wishes"><strong>Оставьте свои пожелания Мистеру Зайчатине: </strong></p>
         <p><textarea name="comment" cols="40" rows="4" placeholder="Вот здесь" class="textarea"></textarea>
         </p>
         <p><input type="submit" value="Отправить">
         <input type="reset" value="Отчистить"></p>
     </form>
-    <div class="try"><h3><b><span id = hlist>Ингредиенты для теста:</span></b></h3>
+    <div class="try join"><h3><b><span id = hlist>Ингредиенты для теста:</span></b></h3>
      <ul type = "disc">
       <div class = "list"><li>Молоко – <em>300</em> мл;</li>
       <li>Вода – <strong>200</strong> мл;</li>
@@ -59,13 +59,31 @@
          </ol>
    
     <h3><b>Ингредиенты для крема:</b></h3>
-      <ul>
-          <li>Молоко – 1 л;</li>
-          <li>Сахар – 300 г;</li>
-          <li>Яйца – 4 шт.;</li>
-          <li>Мука – 120 г;</li>
-          <li>Сливочное масло – 20 г;</li>
-          <li>Ванильный сахар – 10 г;</li>
+      <ul class="list_of_ing">
+          <li id="milk">
+          <a>Молоко 1л</a>
+          <a>1л</a>
+          </li>
+          <li id="sugar">
+          <a>Сахар 300г</a>
+          <a>300г</a>
+          </li>
+          <li id="egg">
+          <a>Яйца 4шт</a>
+          <a>4шт</a>
+          </li>
+          <li id="floar">
+          <a>Мука 120г</a>
+          <a>120г</a>
+          </li>
+          <li id="batter">
+          <a>Сливочное масло 20г</a>
+          <a>20г</a>
+          </li>
+          <li id="vanila">
+          <a>Ванильный сахар 10г</a>
+          <a>10г</a>
+          </li>
       </ul>
    
     <h3><b>Приготовить заварной крем.</b></h3>

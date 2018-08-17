@@ -1,7 +1,7 @@
 html{
     background: url(http://www.gandex.ru/upl/oboi/u11307_9839_FreeWallpapers121.jpg) center;
     background-size: contain;
-    background-attachment: fixed;
+    background-attachment:fixed;
     color: red;
 }
 table{
@@ -84,4 +84,80 @@ table{
     color: black;
     border-color: black;
     border-bottom-width: thick;
+}
+ 
+.list_of_ing{
+    font:1em Tahoma, Arial;
+    text-transform: uppercase;
+    list-style: none;
+    font-weight: 700;
+    color: #000;
+    width: 50px;
+}
+.list_of_ing li{
+    height: 50px;
+    width: 50px;
+    overflow: hidden;
+    border-radius: 100px;
+}
+
+.list_of_ing li:hover{
+    width: 365px;
+    height: 50px;
+}
+
+.list_of_ing li a{
+    display: block;
+    width: 400px;
+    height: 40px;
+    background: #000;
+    opacity: 1;
+    line-height: 40px;
+    margin: 1px;
+    padding-left: 15px;
+    cursor:pointer;
+    white-space:nowrap;
+    
+    transition-property: background;
+    transition-duration: .4s;
+    transition-timing-function:ease-in-out;
+}
+.list_of_ing li a:hover{
+    background: #f53232;
+}
+.list_of_ing li a:first-child{
+    font-size: 1.5em;
+    height: 50px;
+    line-height: 50px;
+    position: relative;
+    text-indent: 35px;
+}
+.list_of_ing li a:first-child::before{
+    content: '';
+    position: absolute;
+    display: block;
+    height: 32px;
+    width: 32px;
+    top: 7px;
+    left: 8px;
+}
+#milk a:first-child::before{
+    background:url("milk.jpg")center no-repeat;
+    
+}
+#sugar a:first-child::before{
+    background:url(https://www.povarenok.ru/images/all/81905.jpg)center no-repeat;
+}
+#egg a:first-child::before{
+    background:url(http://kino.ural.ru/movies/puss_in_boots/22.jpg)center no-repeat;
+}
+#floar a:first-child::before{
+    background:url(http://i43-cdn.woman.ru/womanru/images/article/8/3/img_832434f34a23fc9c368ef3ff3be5b6bb_2_478x500.jpg?02)center no-repeat;
+}
+#batter a:first-child::before{
+    background:url(depositphotos_122001546-stock-illustration-butter-icon-flat-single-bio.png)center no-repeat;
+}
+#vanila a:first-child::before{
+    background:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSc_ZdJi28eytXlIpWF2_yZ2qD1yeUN9lDMr5tNP0QIFeGooZcp)center no-repeat;
+    border-radius: 100px;
 }
