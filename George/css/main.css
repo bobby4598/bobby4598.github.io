@@ -1,0 +1,160 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.cf:after {
+  content: '';
+  display: table;
+  width: 100%;
+  clear: both;
+}
+
+header {
+  background: url(../img/head.jpg) no-repeat center top / cover;
+  height: 680px;
+  }
+
+div {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.logo {
+  width: 200px;
+  height: 200px;
+  float: left;
+}
+
+#logo {
+  margin: 20px 30px 130px 30px;
+  float: left;
+}
+
+nav {
+  float: right;
+  margin-top: 25px;
+}
+
+.menu {
+  display: block;
+}
+
+.menu li {
+  float: left;
+  display: block;
+  margin-right: 75px;
+  font-size: 23px;
+}
+
+.menu li a {
+  color: gray;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.titles_first {
+  font-size: 40px;
+  color: black;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 65px;
+  font-family: fantasy;
+}
+
+h1 {
+  font-size: 100px;
+  color: black;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: serif;
+}
+
+.button {
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+  text-align: center;
+  display: block;
+  width: 200px;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding: 25px 25px;
+  background: grey;
+  border-radius: 10px;
+  border: 5px solid black;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.title {
+  padding-top: 100px
+}
+
+.title h2 {
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.title p {
+  text-align: center;
+  font-size: 35px;
+  color: darkgrey;
+  margin-top: 10px;
+  
+}
+
+.services {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.serv {
+  
+}
+
+.services_item {
+  width: 200px;
+  float: left;
+  text-align: center;
+  margin-left: 150px;
+}
+
+.services_item img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+
+.services_item h3 {
+  font-size: 23px;
+  text-align: center
+}
+
+.services_item p {
+  font-size: 18px;
+  text-align: center;
+  font-weight: bold;
+  color: rgba( 21, 21, 44, 0.437 );
+  margin-top: 7px;
+}
+
+.border {
+  border: 3px solid black;
+  padding-bottom: 15px;
+  border-radius: 17px;
+  background-color: gainsboro;
+  box-shadow: 10px 14px 40px;
+  margin-bottom: 100px;
+}
+
